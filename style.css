@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.list_categories {
+  margin-bottom: 100px;
+}
+
+.user_block {
+  width: 600px;
+  height: 150px;
+  border-radius: 30px;
+  border: 1px solid red;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-icon {
+  border-radius: 50%;
+  border: 1px solid green;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  background-color: blueviolet;
+  color: white;
+}
+
+.userInfo {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+.user-category {
+  background-color: blue;
+  min-width: 100px;
+  border-radius: 10px;
+  position: absolute;
+  right: 10%;
+  bottom: 20%;
+  background-color: white;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.users-container {
+  max-width: 600px;
+}
+
+.action-category {
+  background-color: blue;
+  min-width: 100px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 0 10px;
+}
+
+.action-category:hover {
+  background-color: blue;
+  color: white;
+}
+
+.user-category:hover {
+  background-color: blue;
+  color: white;
+}
